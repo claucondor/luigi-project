@@ -1,0 +1,49 @@
+.centered-image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.centered-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.image-rectangle {
+  position: absolute;
+  /*border: 1px solid transparent;*/
+  border: 2px solid #0a0a0a; /* Cambia 'transparent' a '#fff' */
+
+}
+
+.image-rectangle:hover {
+  border: 1px solid #fff;
+}
+
+.rectangle-info {
+  display: none;
+  position: absolute;
+  background: #fff;
+  color: #000;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  max-width: 200px;
+  overflow: auto;
+}
+
+.image-rectangle:hover .rectangle-info {
+  display: block;
+}
+
+.rectangle-info table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.rectangle-info td {
+  padding: 5px;
+  border: 1px solid #000;
+}
