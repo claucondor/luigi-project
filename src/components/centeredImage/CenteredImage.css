@@ -13,9 +13,8 @@
 
 .image-rectangle {
   position: absolute;
-  /*border: 1px solid transparent;*/
-  border: 2px solid #0a0a0a; /* Cambia 'transparent' a '#fff' */
-
+  border: 1px solid transparent;
+ /*border: 2px solid #0a0a0a; */
 }
 
 .image-rectangle:hover {
