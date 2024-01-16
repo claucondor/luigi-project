@@ -27,7 +27,7 @@ export function App() {
       <NavBar links={links} />
     </div>
     <div>
-      <CenteredImage src='src\assets\imagen1.png' rectangles={rectangles} showRectangles={true}/>
+      <CenteredImage src='https://arweave.net/AbP6LX4_hltCW1zBIYocjBCK00sn0Wu10J9mmha7n-8' rectangles={rectangles} showRectangles={true}/>
     </div>
     </Router>
 
